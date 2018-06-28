@@ -613,24 +613,6 @@
     }
    }
   },
-  "node-red-contrib-swagger": {
-   "name": "node-red-contrib-swagger",
-   "version": "0.4.0",
-   "local": false,
-   "nodes": {
-    "swagger": {
-     "name": "swagger",
-     "types": [
-      "swagger configuration",
-      "swagger api"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "node-red-contrib-swagger",
-     "file": "/home/sean/projects/nr-tests/node_modules/node-red-contrib-swagger/swagger/node-red-contrib-swagger.js"
-    }
-   }
-  },
   "node-red-node-email": {
    "name": "node-red-node-email",
    "version": "0.1.27",
@@ -684,6 +666,75 @@
      "file": "/home/sean/projects/nr-tests/node_modules/node-red-node-twitter/27-twitter.js"
     }
    }
+  },
+  "node-red-contrib-file-upload": {
+   "name": "node-red-contrib-file-upload",
+   "version": "0.0.5",
+   "local": false,
+   "nodes": {
+    "file-upload": {
+     "name": "file-upload",
+     "types": [
+      "file-upload"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-file-upload",
+     "file": "/home/sean/projects/nr-tests/node_modules/node-red-contrib-file-upload/16-file-upload.js"
+    }
+   }
+  },
+  "node-red-contrib-send-multipart": {
+   "name": "node-red-contrib-send-multipart",
+   "version": "0.3.9",
+   "local": false,
+   "nodes": {
+    "http-send-multipart": {
+     "name": "http-send-multipart",
+     "types": [
+      "http-send-multipart"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-send-multipart",
+     "file": "/home/sean/projects/nr-tests/node_modules/node-red-contrib-send-multipart/http-send-multipart.js"
+    }
+   }
+  },
+  "node-red-contrib-http-multipart": {
+   "name": "node-red-contrib-http-multipart",
+   "version": "0.3.2",
+   "local": false,
+   "nodes": {
+    "httpInMultipart": {
+     "name": "httpInMultipart",
+     "types": [
+      "httpInMultipart"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-http-multipart",
+     "file": "/home/sean/projects/nr-tests/node_modules/node-red-contrib-http-multipart/httpInMultipart.js"
+    }
+   }
+  },
+  "node-red-contrib-swagger": {
+   "name": "node-red-contrib-swagger",
+   "version": "0.4.0",
+   "local": false,
+   "nodes": {
+    "swagger": {
+     "name": "swagger",
+     "types": [
+      "swagger configuration",
+      "swagger api"
+     ],
+     "enabled": true,
+     "local": false,
+     "module": "node-red-contrib-swagger",
+     "file": "/home/sean/projects/nr-tests/node_modules/node-red-contrib-swagger/swagger/node-red-contrib-swagger.js"
+    }
+   }
   }
  },
  "_credentialSecret": "637655b8848d4243c2df94e37d11b11e3c0329b81d8deec1c406ef917d09cc7f",
@@ -691,7 +742,7 @@
   "_": {
    "editor": {
     "view": {
-     "view-grid-size": 20,
+     "view-grid-size": "20",
      "view-node-status": true,
      "view-show-tips": false,
      "view-snap-grid": true,
