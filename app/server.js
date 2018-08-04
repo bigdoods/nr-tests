@@ -22,7 +22,7 @@ app.get('/swagger-definition', (req, res) => {
 
 const settings = {
     httpAdminRoot:"/",
-    httpNodeRoot: "/api",
+    httpNodeRoot: "/",// /api
     userDir:"./",
     flowFile: 'flows.json',
     functionGlobalContext: {
