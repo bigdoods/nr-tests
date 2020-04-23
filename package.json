@@ -30,7 +30,7 @@
     "node-red-contrib-send-multipart": "~0.3.9",
     "node-red-contrib-swagger": "github:klimentLambevski/node-red-contrib-swagger",
     "node-red-contrib-wait-paths": "^0.2.11",
-    "node-red-dashboard": "^2.8.2",
+    "node-red-dashboard": "^2.19.3",
     "npm": "^6.3.0",
     "uuid": "^3.2.1"
   }
